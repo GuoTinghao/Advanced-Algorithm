@@ -98,17 +98,17 @@
   ```
 
    The model looks like this: 
-   ![](https://github.com/GuoTinghao/Advanced-Algorithm/blob/main/figure/1.jpg)
+   ![](figure/1.jpg)
 
   The results are as follows(just  25 million steps and every ten million steps make an average merge into one step):
 
-  ![](C:\Users\asus\Desktop\myplot01.png)
+  ![](figure/myplot01.png)
 
   In order to better distinguish the difference between the two, the data is smoothed by the summation average as follow:
 
-  ![](C:\Users\asus\Desktop\myplot05.png)
+  ![](figure/myplot05.png)
 
-  ![myplot05](C:\Users\asus\Desktop\myplot010.png)
+  ![](figure/myplot010.png)
 
   It is obvious that dueling DQN designed in this way is negatively optimized for the original Nature DQN.
 
@@ -163,7 +163,7 @@
 
   Agent, I also use conceptual model diagram to explain the code:
 
-  ![2](C:\Users\asus\Desktop\2.jpg)
+  ![](figure/2.jpg)
 
   In the actual situation, the action with the maximum Q value is **not** selected every time in a given state, because the real strategy is generally **random**, so here the target value directly chooses the Q value of the action with the maximum Q value tends to make the target value higher than the real value, thus leading to the decline of learning effect. 
 
@@ -171,21 +171,21 @@
 
   This is obviously very effective, and the results are as follows:
 
-  ![myplot1](C:\Users\asus\Desktop\myplot1.png)
+  ![](figure/myplot1.png)
 
-  ![myplot5](C:\Users\asus\Desktop\myplot5.png)
+  ![](figure/myplot5.png)
 
-  ![myplot10](C:\Users\asus\Desktop\myplot10.png)
+  ![](figure/myplot10.png)
 
   ## Training effect video presentation 
 
   ### Dueling DQN-1
 
-  
+  https://www.hz-heze.com/wp-content/uploads/2020/11/dueling-1.mp4
 
   ### Dueling DQN-2
 
-  
+  https://www.hz-heze.com/wp-content/uploads/2020/11/dueling-2.mp4
 
   ##      **Authorship**  
 
