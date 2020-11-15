@@ -97,15 +97,16 @@
               torch.nn.init.kaiming_normal_(module.weight, nonlinearity="relu")
   ```
 
-   The model looks like this: ![1](C:\Users\asus\Desktop\1.jpg)
+   The model looks like this: 
+   ![](https://github.com/GuoTinghao/Advanced-Algorithm/blob/main/figure/1.jpg)
 
   The results are as follows(just  25 million steps and every ten million steps make an average merge into one step):
 
-  ![myplot01](C:\Users\asus\Desktop\myplot01.png)
+  ![](C:\Users\asus\Desktop\myplot01.png)
 
   In order to better distinguish the difference between the two, the data is smoothed by the summation average as follow:
 
-  ![myplot05](C:\Users\asus\Desktop\myplot05.png)
+  ![](C:\Users\asus\Desktop\myplot05.png)
 
   ![myplot05](C:\Users\asus\Desktop\myplot010.png)
 
